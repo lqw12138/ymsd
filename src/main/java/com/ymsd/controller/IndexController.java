@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class IndexController {
 	@RequestMapping("/index_page.do")
 	public ModelAndView register_page(){
-		String hh="haha";
+		String hh="hello";
 		return new ModelAndView("index");
 	}
 }
