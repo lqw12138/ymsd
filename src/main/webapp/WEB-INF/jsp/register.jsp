@@ -1,42 +1,93 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="zh">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>注册</title>
+    <%@ include file="head.jsp"%>
 </head>
 <body>
-	<div style="margin:0px auto;width: 100%;height: 100%;">
-		<form action="register.do" method="post">
-			<table>
-				<tbody>
-					<tr>
-						<td>用户名：</td>
-						<td><input type="text" name="username"></td>
-					</tr>
-					<tr>
-						<td>密码：</td>
-						<td><input type="password" name="password"></td>
-					</tr>
-					<tr>
-						<td>重复密码：</td>
-						<td><input type="password" name=""></td>
-					</tr>
-					<tr>
-						<td>手机：</td>
-						<td><input type="text" name="mobile"></td>
-					</tr>
-					<tr>
-						<td>邮箱：</td>
-						<td><input type="text" name="email"></td>
-					</tr>
-					<tr>
-						<td><input type="submit" ></td>
-					</tr>
-				</tbody>
-			</table>
-		</form>
-	</div>
+<!--===========layout-header================-->
+	<%@ include file="header.jsp"%>
+
+<!--===========layout-container================-->
+<div class="register-container">
+    <div class="register-box">
+      <form action="register_sub.do" class="am-form" data-am-validator>
+        <fieldset>
+          <legend>注册用户<p class="register-info">账号可以使用手机或者邮箱注册，但是仔细核对后，填入正确信息。</p></legend>
+
+          <div class="am-form-group">
+            <div class="am-g">
+              <div class="am-u-md-2 am-padding-0 am-text-right">
+                <label for="doc-vld-name-2" class="register-name">账号</label>
+              </div>
+              <div class="am-u-md-10">
+                <input type="text" name="username" minlength="3"
+                       placeholder="输入用户名（至少 3 个字符）" required/>
+              </div>
+            </div>
+          </div>
+
+          <div class="am-form-group">
+            <div class="am-g">
+              <div class="am-u-md-2 am-padding-0 am-text-right">
+                <label for="doc-vld-pwd-1" class="register-pwd">密码</label>
+              </div>
+              <div class="am-u-md-10">
+                <input type="password" id="doc-vld-pwd-1" name="password" placeholder="6 位数字的银行卡密码" pattern="^\d{6}$" required/>
+              </div>
+            </div>
+          </div>
+
+          <div class="am-form-group">
+            <div class="am-g">
+              <div class="am-u-md-2 am-padding-0 am-text-right">
+                <label for="doc-vld-pwd-2">确认密码</label>
+              </div>
+              <div class="am-u-md-10">
+                <input type="password" id="doc-vld-pwd-2" placeholder="请与上面输入的值一致" data-equal-to="#doc-vld-pwd-1" required/>
+              </div>
+            </div>
+          </div>
+          <div class="am-form-group">
+            <div class="am-g">
+              <div class="am-u-md-2 am-padding-0 am-text-right">
+                <label for="doc-vld-name-2" class="register-name">手机</label>
+              </div>
+              <div class="am-u-md-10">
+                <input type="text" name="mobile"  placeholder="手机"/>
+              </div>
+            </div>
+          </div>
+          <div class="am-form-group">
+            <div class="am-g">
+              <div class="am-u-md-2 am-padding-0 am-text-right">
+                <label for="doc-vld-name-2" class="register-name">邮箱</label>
+              </div>
+              <div class="am-u-md-10">
+                <input type="text" name="email"  placeholder="邮箱" />
+              </div>
+            </div>
+          </div>
+
+          <div class="am-g">
+            <div class="am-u-md-10">
+              <button class="am-btn am-btn-secondary" type="submit">注册</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+</div>
+
+
+<!--===========layout-footer================-->
+	<%@ include file="footer.jsp"%>
+
+<script src="static/assets/js/jquery-2.1.0.js" charset="utf-8"></script>
+<script src="static/assets/js/amazeui.js" charset="utf-8"></script>
+<script src="static/assets/js/common.js" charset="utf-8"></script>
 </body>
+
 </html>

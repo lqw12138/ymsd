@@ -23,18 +23,18 @@ public class MemberController {
 	@Autowired
 	private MemberService memberservice;
 	
-	@RequestMapping("/register_page.do")
+	@RequestMapping("/register.do")
 	public ModelAndView register_page(){
 		return new ModelAndView("register");
 	}
 	
-	@RequestMapping("/login_page.do")
+	@RequestMapping("/login.do")
 	public ModelAndView login_page(){
 		return new ModelAndView("login");
 	}
 	
 	
-	@RequestMapping("/register.do")
+	@RequestMapping("/register_sub.do")
 	public String register(HttpServletRequest request,HttpServletResponse response,Member member) throws UnsupportedEncodingException{
 		request.setCharacterEncoding("utf-8");
 		response.setContentType("text/html;charset=utf-8");
@@ -48,9 +48,9 @@ public class MemberController {
 		//System.out.println(member.getPassword() + ":" + member.getSex() + ":" + member.getBirthday().toString());
 		String result = memberservice.register(member);
 		if(result.equals("注册成功")){			
-			return "redirect:/login_page.do";
+			return "redirect:/login.do";
 		}
-		return "redirect:/register_page.do";
+		return "redirect:/register.do";
 	}
 	
 }

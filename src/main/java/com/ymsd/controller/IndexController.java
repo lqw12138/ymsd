@@ -6,8 +6,14 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class IndexController {
-	@RequestMapping("/index_page.do")
-	public ModelAndView register_page(){
+	@RequestMapping("/")
+	public ModelAndView root(){
+		String hh="hello";
+		return new ModelAndView("index");
+	}
+	
+	@RequestMapping("/index.do")
+	public ModelAndView index(){
 		String hh="hello";
 		return new ModelAndView("index");
 	}
