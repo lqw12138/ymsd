@@ -2980,6 +2980,7 @@ fieldset[disabled] .am-checkbox-inline {
   display: block;
   padding: 0.4em 1em;
   border-radius: 0;
+  color: black;
 }
 .am-nav > li > a:hover,
 .am-nav > li > a:focus {
@@ -2990,8 +2991,9 @@ fieldset[disabled] .am-checkbox-inline {
 .am-nav > li.am-active > a:hover,
 .am-nav > li.am-active > a:focus {
   color: #fff;
-  background-color: #0e90d2;
+  background-color: #7c6aa6;
   cursor: default;
+  
 }
 .am-nav > li.am-disabled > a {
   color: #999999;

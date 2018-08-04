@@ -43,13 +43,14 @@
         <div style="border: 1px solid black">
             <div class="am-u-md-9">
                 <ul class="am-nav am-nav-pills am-nav-justify" style="margin: 15px 5px">
-                    <li class="active"><a href="${pageContext.request.contextPath}/index.do"><img src="${pageContext.request.contextPath}/static/assets/images/logo.png" alt="首页"  style="width: 100%"/></a></li>
-                    <li><a href="${pageContext.request.contextPath}/morita/index.do" style="font-size:x-large;color: black">森田的路</a></li>
-                    <li><a href="${pageContext.request.contextPath}/magazine/index.do" style="font-size: x-large;color: black">期刊与杂志</a></li>
-                    <li><a href="${pageContext.request.contextPath}/movies/index.do" style="font-size: x-large;color: black">影音</a></li>
-                    <li><a href="${pageContext.request.contextPath}/sport/index.do" style="font-size: x-large;color: black">体育</a></li>
-                    <li><a href="${pageContext.request.contextPath}/tech/index.do" style="font-size: x-large;color: black">科技</a></li>
-                    <li><a href="${pageContext.request.contextPath}/behind/index.do" style="font-size: x-large;color: black">背后的你</a></li>
+                    <li ><a href="${pageContext.request.contextPath}/index.do"><img src="${pageContext.request.contextPath}/static/assets/images/logo.png" alt="首页"  style="width: 100%"/></a></li>
+                    <li nav-data="index"><a href="${pageContext.request.contextPath}/index/index.do" style="font-size:x-large;">首页</a></li>
+                    <li nav-data="morita"><a href="${pageContext.request.contextPath}/morita/index.do" style="font-size:x-large;">森田的路</a></li>
+                    <li nav-data="magazine"><a href="${pageContext.request.contextPath}/magazine/index.do" style="font-size: x-large;">期刊与杂志</a></li>
+                    <li nav-data="movies"><a href="${pageContext.request.contextPath}/movies/index.do" style="font-size: x-large;">影音</a></li>
+                    <li nav-data="sport"><a href="${pageContext.request.contextPath}/sport/index.do" style="font-size: x-large;">体育</a></li>
+                    <li nav-data="tech"><a href="${pageContext.request.contextPath}/tech/index.do" style="font-size: x-large;">科技</a></li>
+                    <li nav-data="behind"><a href="${pageContext.request.contextPath}/behind/index.do" style="font-size: x-large;">背后的你</a></li>
                 </ul>
             </div>
             <div class="am-u-md-2" align="center">
