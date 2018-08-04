@@ -45,9 +45,8 @@
 <!--===========layout-footer================-->
 	<%@ include file="footer.jsp"%>
 
-<script src="${pageContext.request.contextPath}/static/assets/js/jquery-2.1.0.js" charset="utf-8"></script>
-<script src="${pageContext.request.contextPath}/static/assets/js/amazeui.js" charset="utf-8"></script>
-<script src="${pageContext.request.contextPath}/static/assets/js/common.js" charset="utf-8"></script>
+<!--===========layout-script================-->
+	<%@ include file="script.jsp"%>
 </body>
 
 </html>
