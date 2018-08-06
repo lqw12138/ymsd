@@ -43,7 +43,7 @@
         <div style="border: 1px solid black">
             <div class="am-u-md-9">
                 <ul class="am-nav am-nav-pills am-nav-justify" style="margin: 15px 5px">
-                    <li ><a href="${pageContext.request.contextPath}/index.do"><img src="${pageContext.request.contextPath}/static/assets/images/logo.png" alt="首页"  style="width: 100%"/></a></li>
+                    <li ><a href="${pageContext.request.contextPath}/index/index.do"><img src="${pageContext.request.contextPath}/static/assets/images/logo.png" alt="首页"  style="width: 100%"/></a></li>
                     <li nav-data="index"><a href="${pageContext.request.contextPath}/index/index.do" style="font-size:x-large;">首页</a></li>
                     <li nav-data="morita"><a href="${pageContext.request.contextPath}/morita/index.do" style="font-size:x-large;">森田的路</a></li>
                     <li nav-data="magazine"><a href="${pageContext.request.contextPath}/magazine/index.do" style="font-size: x-large;">期刊与杂志</a></li>
@@ -62,7 +62,7 @@
                 </div>
             </div>
             <div class="am-u-md-1" align="center">
-                <img src="${pageContext.request.contextPath}/static/assets/images/index/其他.png" alt="首页"  style="width: 40%;margin-top: 15px"/>
+                <img src="${pageContext.request.contextPath}/static/assets/images/index/other.png" alt="首页"  style="width: 40%;margin-top: 15px"/>
             </div>
         </div>
 

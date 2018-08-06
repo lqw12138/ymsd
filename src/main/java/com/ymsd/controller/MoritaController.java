@@ -13,4 +13,15 @@ public class MoritaController {
 		String hh="hello";
 		return new ModelAndView("morita");
 	}
+	@RequestMapping("/courselist.do")
+	public ModelAndView courselist(){
+		String hh="hello";
+		return new ModelAndView("courselist");
+	}
+	
+	@RequestMapping("/course.do")
+	public ModelAndView course(){
+		String hh="hello";
+		return new ModelAndView("course");
+	}
 }

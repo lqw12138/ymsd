@@ -116,19 +116,19 @@
                 <div class="am-g" style="margin-top: 100px">
                     <div class="am-u-md-4" align="center">
                         <div class="features_item">
-                            <img src="static/assets/images/index/电视剧.png" style="width:20%" alt="">
+                            <img src="${pageContext.request.contextPath}/static/assets/images/index/tv.png" style="width:20%" alt="">
                             <a href="html/movies.html"><p class="features_item--text" style="font-size: large;color: black">电视剧</p></a>
                         </div>
                     </div>
                     <div class="am-u-md-4" align="center">
                         <div class="features_item">
-                            <img src="static/assets/images/index/音乐.png" style="width:20%" alt="">
+                            <img src="${pageContext.request.contextPath}/static/assets/images/index/music.png" style="width:20%" alt="">
                             <a href="html/movies.html"><p class="features_item--text" style="font-size: large;color: black">音&nbsp&nbsp乐</p></a>
                         </div>
                     </div>
                     <div class="am-u-md-4" align="center">
                         <div class="features_item">
-                            <img src="static/assets/images/index/电影.png" style="width:20%" alt="">
+                            <img src="${pageContext.request.contextPath}/static/assets/images/index/movie.png" style="width:20%" alt="">
                             <a href="html/movies.html"><p class="features_item--text" style="font-size: large;color: black">电&nbsp&nbsp影</p></a>
                         </div>
                     </div>
