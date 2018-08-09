@@ -10,7 +10,9 @@ public class MoviesController {
 	
 	@RequestMapping("/index.do")
 	public ModelAndView index(){
-		String hh="hello";
-		return new ModelAndView("movies");
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("movies");
+        modelAndView.addObject("title", "影音");
+		return modelAndView;
 	}
 }

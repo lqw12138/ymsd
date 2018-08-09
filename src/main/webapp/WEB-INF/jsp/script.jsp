@@ -18,9 +18,9 @@
 				ind = false;
 			}
 		});
-		if(ind){
-			$(".layout-header .am-nav li[nav-data='index']").addClass("am-active");
-		}
+		//if(ind){
+		//	$(".layout-header .am-nav li[nav-data='index']").addClass("am-active");
+		//}
 	});
 	
 	

@@ -9,13 +9,17 @@ import org.springframework.web.servlet.ModelAndView;
 public class IndexController {
 	@RequestMapping("/")
 	public ModelAndView root(){
-		String hh="hello";
-		return new ModelAndView("index");
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("index");
+        modelAndView.addObject("title", "优美盛地");
+		return modelAndView;
 	}
 	
 	@RequestMapping("/index.do")
 	public ModelAndView index(){
-		String hh="hello";
-		return new ModelAndView("index");
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("index");
+        modelAndView.addObject("title", "优美盛地");
+		return modelAndView;
 	}
 }

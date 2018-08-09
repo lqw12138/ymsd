@@ -10,18 +10,25 @@ public class MoritaController {
 	
 	@RequestMapping("/index.do")
 	public ModelAndView index(){
-		String hh="hello";
-		return new ModelAndView("morita");
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("morita");
+        modelAndView.addObject("title", "森田的路");
+		return modelAndView;
 	}
 	@RequestMapping("/courselist.do")
 	public ModelAndView courselist(){
-		String hh="hello";
-		return new ModelAndView("courselist");
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("courselist");
+        modelAndView.addObject("title", "森田的路");
+		return modelAndView;
+		
 	}
 	
 	@RequestMapping("/course.do")
 	public ModelAndView course(){
-		String hh="hello";
-		return new ModelAndView("course");
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("course");
+        modelAndView.addObject("title", "森田的路");
+		return modelAndView;
 	}
 }
