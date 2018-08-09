@@ -15,4 +15,12 @@ public class MagazineController {
         modelAndView.addObject("title", "期刊与杂志");
 		return modelAndView;
 	}
+	
+	@RequestMapping("/detail.do")
+	public ModelAndView detail(){
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("magazine_detail");
+        modelAndView.addObject("title", "期刊与杂志");
+		return modelAndView;
+	}
 }
