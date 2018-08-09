@@ -40,9 +40,9 @@
 							<div class="am-u-md-3">&nbsp</div>
 							<div class="am-u-md-6" align="center">
 								<div class="features_item">
-									<img src="${pageContext.request.contextPath}/static/assets/images/index/f01.jpg"
+									<img src="${pageContext.request.contextPath}/static/assets/images/course/dyt.jpg"
 										style="width: 100%" alt="">
-									<h1 class="section--title">优美圣地</h1>
+									<!-- <h1 class="section--title">优美圣地</h1> -->
 								</div>
 							</div>
 							<div class="am-u-md-3">&nbsp</div>

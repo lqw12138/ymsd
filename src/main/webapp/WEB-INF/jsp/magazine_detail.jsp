@@ -31,7 +31,7 @@
 	                  	 我们期待打造一款最简洁时尚的杂志
 	                </div>
 	                <div class="index-more">
-	                    <a href="${pageContext.request.contextPath}/magazine/detail.do?id=1">
+	                    <a href="html/magazines.html">
 	                        <button type="button" class="am-btn am-btn-secondary">了解</button>
 	                    </a>
 	                </div>
@@ -61,7 +61,7 @@
 	                  	 科技想要的是什么
 	                </div>
 	                <div class="index-more">
-	                    <a href="${pageContext.request.contextPath}/magazine/detail.do?id=2">
+	                    <a href="html/magazines.html">
 	                        <button type="button" class="am-btn am-btn-secondary">了解</button>
 	                    </a>
 	                </div>
@@ -91,7 +91,7 @@
 	                  	 是否还有另外一个沪沽湖
 	                </div>
 	                <div class="index-more">
-	                    <a href="${pageContext.request.contextPath}/magazine/detail.do?id=3">
+	                    <a href="html/magazines.html">
 	                        <button type="button" class="am-btn am-btn-secondary">了解</button>
 	                    </a>
 	                </div>
