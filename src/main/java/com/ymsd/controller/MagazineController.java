@@ -10,7 +10,9 @@ public class MagazineController {
 	
 	@RequestMapping("/index.do")
 	public ModelAndView index(){
-		String hh="hello";
-		return new ModelAndView("magazine");
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("magazine");
+        modelAndView.addObject("title", "期刊与杂志");
+		return modelAndView;
 	}
 }

@@ -4,6 +4,12 @@
 <html lang="zh">
 <head>
 <%@ include file="head.jsp"%>
+<style type="text/css">
+.description{
+	text-indent: 2em;
+	text-align: justify !important;
+}
+</style>
 </head>
 <body>
 	<!--===========layout-header================-->
@@ -20,15 +26,15 @@
 						<div class="am-u-md-3">&nbsp</div>
 						<div class="am-u-md-6" align="center">
 							<div class="features_item">
-								<img src="static/assets/images/index/f01.jpg"
-									style="width: 100%" alt="">
-								<h1 class="section--title">优美圣地</h1>
+								<img src="${pageContext.request.contextPath}/static/assets/images/index/morita.jpg"
+									style="width: 50%" alt="">
+								<!-- <h1 class="section--title">优美圣地</h1> -->
 							</div>
 						</div>
 						<div class="am-u-md-3">&nbsp</div>
 					</div>
 
-					<div class="index-more">心理学家也不过是普通人，森田正马先生出生于1974年日本高知县，他的不凡之举是通过自己的生活经验总结，创
+					<div class="index-more description">心理学家也不过是普通人，森田正马先生出生于1974年日本高知县，他的不凡之举是通过自己的生活经验总结，创
 造了独特的森田疗法，用于根治被医学界认为很难根治的神经症。</div>
 					<div class="index-more">
 						<a href="${pageContext.request.contextPath}/morita/courselist.do">
@@ -88,7 +94,7 @@
 							<button type="button" class="am-btn am-btn-secondary">人性观</button>
 						</a>
 					</div>
-					<div class="index-more">人时时刻刻都在流动变化的存在，人的生命在最好的状态下，乃是一个流动、变化的过程。如果能让我的体验之流载我向前流去，能在其
+					<div class="index-more description">人时时刻刻都在流动变化的存在，人的生命在最好的状态下，乃是一个流动、变化的过程。如果能让我的体验之流载我向前流去，能在其
 中载浮载沉，而且还能同时去尝试了解它那变动不拘的性格，其中不会有任何一定让我停留。我不会有一个封闭的信仰体系。研究心理问题就
 得从外界与自己的夹缝中去寻求，意识只不过是一种状态，一种自然现象而已。</div>
 				</div>
@@ -115,7 +121,7 @@
 							<button type="button" class="am-btn am-btn-secondary">失眠观</button>
 						</a>
 					</div>
-					<div class="index-more">连日的强行军，士兵们可以边走边睡，连十分钟的简短休息也能呼呼熟睡。人疲劳了，需要睡觉，这是我们身体具备的安全阀门。由此
+					<div class="index-more description">连日的强行军，士兵们可以边走边睡，连十分钟的简短休息也能呼呼熟睡。人疲劳了，需要睡觉，这是我们身体具备的安全阀门。由此
 看来述说失眠的人实际上是睡得着的人。</div>
 				</div>
 			</div>

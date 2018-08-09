@@ -10,7 +10,9 @@ public class BehindController {
 	
 	@RequestMapping("/index.do")
 	public ModelAndView index(){
-		String hh="hello";
-		return new ModelAndView("behind");
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("behind");
+        modelAndView.addObject("title", "背后的你");
+		return modelAndView;
 	}
 }

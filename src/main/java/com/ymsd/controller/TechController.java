@@ -10,7 +10,9 @@ public class TechController {
 	
 	@RequestMapping("/index.do")
 	public ModelAndView index(){
-		String hh="hello";
-		return new ModelAndView("tech");
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("tech");
+        modelAndView.addObject("title", "科技");
+		return modelAndView;
 	}
 }
