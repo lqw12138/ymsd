@@ -28,7 +28,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/movies/list.do?type=电影瞬间">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -57,7 +57,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/movies/list.do?type=电视剧瞬间">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -87,7 +87,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/movies/list.do?type=经典台词">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -116,7 +116,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/movies/list.do?type=歌曲歌词">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
