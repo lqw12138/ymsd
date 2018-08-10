@@ -22,6 +22,7 @@ public class MoviesController {
         modelAndView.setViewName("movies/list");
         modelAndView.addObject("title", "影音");
         modelAndView.addObject("type", type);
+        modelAndView.addObject("subUrl", "movies");
         System.out.println(type);
 		return modelAndView;
 	}

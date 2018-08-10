@@ -29,7 +29,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/behind/list.do?type=校园">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -58,7 +58,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/behind/list.do?type=工地">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -88,7 +88,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/behind/list.do?type=街道">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -117,7 +117,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/behind/list.do?type=程序员">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -143,7 +143,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/behind/list.do?type=这个村庄">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
