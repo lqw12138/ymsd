@@ -15,4 +15,25 @@ public class MoviesController {
         modelAndView.addObject("title", "影音");
 		return modelAndView;
 	}
+	
+	@RequestMapping("/list.do")
+	public ModelAndView list(String type){
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("movies/list");
+        modelAndView.addObject("title", "影音");
+        modelAndView.addObject("type", type);
+        System.out.println(type);
+		return modelAndView;
+	}
+	
+	@RequestMapping("/detail.do")
+	public ModelAndView detail(int id){
+		ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("movies/detail");
+        modelAndView.addObject("title", "影音");
+        modelAndView.addObject("type", id);
+        modelAndView.addObject("id", id);
+        System.out.println(id);
+		return modelAndView;
+	}
 }
