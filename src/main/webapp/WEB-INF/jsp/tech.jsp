@@ -29,7 +29,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/tech/list.do?type=书籍">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -58,7 +58,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/tech/list.do?type=人工智能">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -88,7 +88,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/tech/list.do?type=大数据">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -117,7 +117,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/tech/list.do?type=云计算">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -143,7 +143,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/tech/list.do?type=计算机">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -172,7 +172,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/tech/list.do?type=产品">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>
@@ -202,7 +202,7 @@
 					</div>
 
 					<div class="index-more">
-						<a href="${pageContext.request.contextPath}/index/index.do">
+						<a href="${pageContext.request.contextPath}/tech/list.do?type=人物">
 							<button type="button" class="am-btn am-btn-secondary">了解</button>
 						</a>
 					</div>

@@ -18,7 +18,7 @@
 	<!--===========layout-container================-->
 	<div class="layout-container">
 
-		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
+		<div class="section" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 
-		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
+		<div class="section" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -54,9 +54,9 @@
 						<div class="am-u-md-3">&nbsp</div>
 						<div class="am-u-md-6" align="center">
 							<div class="features_item">
-								<img src="static/assets/images/index/f01.jpg"
-									style="width: 100%" alt="">
-								<h1 class="section--title">环球科学</h1>
+								<img src="${pageContext.request.contextPath}/static/assets/images/index/morita.jpg"
+									style="width: 50%" alt="">
+								<!-- <h1 class="section--title">环球科学</h1> -->
 							</div>
 						</div>
 						<div class="am-u-md-3">&nbsp</div>
@@ -73,7 +73,7 @@
 			</div>
 		</div>
 
-		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
+		<div class="section" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -81,9 +81,9 @@
 						<div class="am-u-md-3">&nbsp</div>
 						<div class="am-u-md-6" align="center">
 							<div class="features_item">
-								<img src="static/assets/images/index/f01.jpg"
-									style="width: 100%" alt="">
-								<h1 class="section--title">中国国家地理</h1>
+								<img src="${pageContext.request.contextPath}/static/assets/images/index/morita.jpg"
+									style="width: 50%" alt="">
+								<!-- <h1 class="section--title">中国国家地理</h1> -->
 							</div>
 						</div>
 						<div class="am-u-md-3">&nbsp</div>
@@ -100,7 +100,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
+		<div class="section" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -108,9 +108,9 @@
 						<div class="am-u-md-3">&nbsp</div>
 						<div class="am-u-md-6" align="center">
 							<div class="features_item">
-								<img src="static/assets/images/index/f01.jpg"
-									style="width: 100%" alt="">
-								<h1 class="section--title">中国国家地理</h1>
+								<img src="${pageContext.request.contextPath}/static/assets/images/index/morita.jpg"
+									style="width: 50%" alt="">
+								<!-- <h1 class="section--title">中国国家地理</h1> -->
 							</div>
 						</div>
 						<div class="am-u-md-3">&nbsp</div>
@@ -126,7 +126,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
+		<div class="section" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -134,9 +134,9 @@
 						<div class="am-u-md-3">&nbsp</div>
 						<div class="am-u-md-6" align="center">
 							<div class="features_item">
-								<img src="static/assets/images/index/f01.jpg"
-									style="width: 100%" alt="">
-								<h1 class="section--title">中国国家地理</h1>
+								<img src="${pageContext.request.contextPath}/static/assets/images/index/morita.jpg"
+									style="width: 50%" alt="">
+								<!-- <h1 class="section--title">中国国家地理</h1> -->
 							</div>
 						</div>
 						<div class="am-u-md-3">&nbsp</div>
@@ -151,7 +151,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
+		<div class="section" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -159,9 +159,9 @@
 						<div class="am-u-md-3">&nbsp</div>
 						<div class="am-u-md-6" align="center">
 							<div class="features_item">
-								<img src="static/assets/images/index/f01.jpg"
-									style="width: 100%" alt="">
-								<h1 class="section--title">中国国家地理</h1>
+								<img src="${pageContext.request.contextPath}/static/assets/images/index/morita.jpg"
+									style="width: 50%" alt="">
+								<!-- <h1 class="section--title">中国国家地理</h1> -->
 							</div>
 						</div>
 						<div class="am-u-md-3">&nbsp</div>
@@ -176,7 +176,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
+		<div class="section" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -184,9 +184,9 @@
 						<div class="am-u-md-3">&nbsp</div>
 						<div class="am-u-md-6" align="center">
 							<div class="features_item">
-								<img src="static/assets/images/index/f01.jpg"
-									style="width: 100%" alt="">
-								<h1 class="section--title">中国国家地理</h1>
+								<img src="${pageContext.request.contextPath}/static/assets/images/index/morita.jpg"
+									style="width: 50%" alt="">
+								<!-- <h1 class="section--title">中国国家地理</h1> -->
 							</div>
 						</div>
 						<div class="am-u-md-3">&nbsp</div>
@@ -201,7 +201,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
+		<div class="section" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -209,9 +209,9 @@
 						<div class="am-u-md-3">&nbsp</div>
 						<div class="am-u-md-6" align="center">
 							<div class="features_item">
-								<img src="static/assets/images/index/f01.jpg"
-									style="width: 100%" alt="">
-								<h1 class="section--title">中国国家地理</h1>
+								<img src="${pageContext.request.contextPath}/static/assets/images/index/morita.jpg"
+									style="width: 50%" alt="">
+								<!-- <h1 class="section--title">中国国家地理</h1> -->
 							</div>
 						</div>
 						<div class="am-u-md-3">&nbsp</div>
@@ -226,7 +226,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
+		<div class="section" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -234,9 +234,9 @@
 						<div class="am-u-md-3">&nbsp</div>
 						<div class="am-u-md-6" align="center">
 							<div class="features_item">
-								<img src="static/assets/images/index/f01.jpg"
-									style="width: 100%" alt="">
-								<h1 class="section--title">中国国家地理</h1>
+								<img src="${pageContext.request.contextPath}/static/assets/images/index/morita.jpg"
+									style="width: 50%" alt="">
+								<!-- <h1 class="section--title">中国国家地理</h1> -->
 							</div>
 						</div>
 						<div class="am-u-md-3">&nbsp</div>

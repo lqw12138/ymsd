@@ -60,7 +60,7 @@
 							<div class="up">
 								<div class="items">
 									<div class="item">
-										<a href="${pageContext.request.contextPath}/movies/detail.do?id=1">
+										<a href="${pageContext.request.contextPath}/${subUrl}/detail.do?id=1">
 											<div class="imgarea">
 												<img alt="" src="">
 											</div>
@@ -68,7 +68,7 @@
 										</a>
 									</div>
 									<div class="item">
-										<a href="${pageContext.request.contextPath}/movies/detail.do?id=1">
+										<a href="${pageContext.request.contextPath}/${subUrl}/detail.do?id=1">
 											<div class="imgarea">
 												<img alt="" src="">
 											</div>
@@ -76,7 +76,7 @@
 										</a>
 									</div>
 									<div class="item">
-										<a href="${pageContext.request.contextPath}/movies/detail.do?id=1">
+										<a href="${pageContext.request.contextPath}/${subUrl}/detail.do?id=1">
 											<div class="imgarea">
 												<img alt="" src="">
 											</div>
@@ -84,7 +84,7 @@
 										</a>
 									</div>
 									<div class="item">
-										<a href="${pageContext.request.contextPath}/movies/detail.do?id=1">
+										<a href="${pageContext.request.contextPath}/${subUrl}/detail.do?id=1">
 											<div class="imgarea">
 												<img alt="" src="">
 											</div>
@@ -92,7 +92,7 @@
 										</a>
 									</div>
 									<div class="item">
-										<a href="${pageContext.request.contextPath}/movies/detail.do?id=1">
+										<a href="${pageContext.request.contextPath}/${subUrl}/detail.do?id=1">
 											<div class="imgarea">
 												<img alt="" src="">
 											</div>
@@ -100,7 +100,7 @@
 										</a>
 									</div>
 									<div class="item">
-										<a href="${pageContext.request.contextPath}/movies/detail.do?id=1">
+										<a href="${pageContext.request.contextPath}/${subUrl}/detail.do?id=1">
 											<div class="imgarea">
 												<img alt="" src="">
 											</div>
@@ -108,7 +108,7 @@
 										</a>
 									</div>
 									<div class="item">
-										<a href="${pageContext.request.contextPath}/movies/detail.do?id=1">
+										<a href="${pageContext.request.contextPath}/${subUrl}/detail.do?id=1">
 											<div class="imgarea">
 												<img alt="" src="">
 											</div>
@@ -116,7 +116,7 @@
 										</a>
 									</div>
 									<div class="item">
-										<a href="${pageContext.request.contextPath}/movies/detail.do?id=1">
+										<a href="${pageContext.request.contextPath}/${subUrl}/detail.do?id=1">
 											<div class="imgarea">
 												<img alt="" src="">
 											</div>
