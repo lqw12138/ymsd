@@ -18,7 +18,7 @@ public class MoritaController {
 	@RequestMapping("/courselist.do")
 	public ModelAndView courselist(){
 		ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("course/courselist");
+        modelAndView.setViewName("morita/courselist");
         modelAndView.addObject("title", "森田的路");
 		return modelAndView;
 		
@@ -27,7 +27,7 @@ public class MoritaController {
 	@RequestMapping("/course.do")
 	public ModelAndView course(){
 		ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("course/course");
+        modelAndView.setViewName("morita/course");
         modelAndView.addObject("title", "森田的路");
 		return modelAndView;
 	}
