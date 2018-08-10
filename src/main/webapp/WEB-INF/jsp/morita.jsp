@@ -18,7 +18,7 @@
 	<!--===========layout-container================-->
 	<div class="layout-container">
 
-		<div class="section" >
+		<div class="section" style="border-bottom: 1px solid #e9e9e9;" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 
-		<div class="section" >
+		<div class="section" style="border-bottom: 1px solid #e9e9e9;" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -73,7 +73,7 @@
 			</div>
 		</div>
 
-		<div class="section" >
+		<div class="section" style="border-bottom: 1px solid #e9e9e9;" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -100,7 +100,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" >
+		<div class="section" style="border-bottom: 1px solid #e9e9e9;" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -126,7 +126,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" >
+		<div class="section" style="border-bottom: 1px solid #e9e9e9;" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -151,7 +151,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" >
+		<div class="section" style="border-bottom: 1px solid #e9e9e9;" >
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -176,7 +176,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" >
+		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -201,7 +201,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" >
+		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
@@ -226,7 +226,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="section" >
+		<div class="section" style="border-bottom: 1px solid #e9e9e9;">
 			<!--index-container start-->
 			<div class="index-container">
 				<div class="container">
