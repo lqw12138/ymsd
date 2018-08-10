@@ -19,7 +19,7 @@ public class MagazineController {
 	@RequestMapping("/detail.do")
 	public ModelAndView detail(){
 		ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("magazine_detail");
+        modelAndView.setViewName("magazine/detail");
         modelAndView.addObject("title", "期刊与杂志");
 		return modelAndView;
 	}

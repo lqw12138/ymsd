@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-<%@ include file="head.jsp"%>
+<%@ include file="../head.jsp"%>
 <style>
 .container {
 	width: 80% !important;
@@ -26,7 +26,7 @@
 </head>
 <body>
 	<!--===========layout-header================-->
-	<%@ include file="header.jsp"%>
+	<%@ include file="../header.jsp"%>
 
 	<!--===========layout-container================-->
 	<div class="layout-container">
@@ -78,10 +78,10 @@
 
 
 	<!--===========layout-footer================-->
-	<%@ include file="footer.jsp"%>
+	<%@ include file="../footer.jsp"%>
 
 	<!--===========layout-script================-->
-	<%@ include file="script.jsp"%>
+	<%@ include file="../script.jsp"%>
 </body>
 
 </html>
